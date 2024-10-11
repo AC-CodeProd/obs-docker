@@ -5,6 +5,7 @@ services:
       args:
         OBS_VERSION: "30.2.3"
         USER: obs
+    privileged: true
     ports:
     - "3000:3000"
     - "3001:3001"

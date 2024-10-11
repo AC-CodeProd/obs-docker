@@ -19,6 +19,7 @@ apt-get update && \
   libnss3 \
   mesa-utils \
   qtbase5-dev \
+  v4l2loopback-dkms \
   vlc \
   strace \
   x11-xserver-utils \
@@ -40,6 +41,7 @@ apt-get update && \
     /var/tmp/* \
     /tmp/*
 
+RUN usermod -aG video abc
 
 COPY /root /
 
