@@ -1,0 +1,22 @@
+# Exclure les fichiers temporaires
+*.log
+*.cache
+*.swp
+*.bak
+
+# Exclure les fichiers de configuration locaux
+.dockerignore
+.git
+*.md
+*.txt
+
+# Exclure les fichiers générés automatiquement
+node_modules/
+dist/
+build/
+tmp/
+
+# Exclure les fichiers et répertoires volumineux
+data/
+logs/
+media/
