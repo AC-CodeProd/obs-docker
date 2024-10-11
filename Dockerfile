@@ -19,6 +19,7 @@ apt-get update && \
   libnss3 \
   mesa-utils \
   qtbase5-dev \
+  vlc \
   strace \
   x11-xserver-utils \
   software-properties-common && \
